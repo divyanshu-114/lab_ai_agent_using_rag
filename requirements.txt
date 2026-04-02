@@ -1,0 +1,21 @@
+# ── Core RAG stack  (your exact Colab notebook packages) ─────────────────────
+PyPDF2>=3.0.0
+sentence-transformers>=3.0.0
+faiss-cpu>=1.8.0
+groq>=0.9.0
+scikit-learn>=1.4.0
+numpy>=2.0.0
+python-dotenv>=1.0.0
+
+# ── Streamlit frontend ────────────────────────────────────────────────────────
+streamlit>=1.35.0
+ 
+# ── Fine-tuning  (optional — only needed if you run fine_tune.py) ─────────────
+# transformers>=4.41.0
+# peft>=0.11.0
+# trl>=0.9.0
+# datasets>=2.19.0
+# accelerate>=0.30.0
+# bitsandbytes>=0.43.0
+# torch>=2.2.0
+ 
